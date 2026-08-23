@@ -1,0 +1,4 @@
+# Copy to .dev.vars for local `npm run dev` (never commit .dev.vars).
+# Reddit requires a descriptive User-Agent; include your username.
+# Example format: <platform>:<app_id>:<version> (by /u/<reddit_username>)
+USER_AGENT="cloudflare-worker:reddit-mcp:0.1.0 (by /u/YOUR_REDDIT_USERNAME)"

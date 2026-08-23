@@ -1,0 +1,11 @@
+name = "reddit-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-08-01"
+workers_dev = true
+
+# Do NOT put secrets here. Set USER_AGENT with:
+#   npx wrangler secret put USER_AGENT
+# Locally, copy .dev.vars.example -> .dev.vars (gitignored).
+
+[observability]
+enabled = true

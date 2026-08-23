@@ -1,0 +1,26 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+credentials*.json
+.mcp-auth/
+
+# Cloudflare / build
+.wrangler/
+dist/
+.mf/
+.turbo/
+
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.log
