@@ -81,7 +81,7 @@ All tools return **compact JSON** (truncated text fields). `limit` defaults to *
 
 ## Cloudflare deploy
 
-Prerequisites: Node 20+, Cloudflare account, Wrangler logged in (`npx wrangler login`).
+Prerequisites: Node 22+, Cloudflare account, Wrangler logged in (`npx wrangler login`).
 
 ```bash
 git clone https://github.com/pmsorhaindo/reddit-mcp.git
